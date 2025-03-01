@@ -25,8 +25,8 @@ function startGame() {
     }
 
     let nameList = playerNamesInput.split(",").map(name => name.trim());
-    if (nameList.length !== 5) {
-        alert("Please enter exactly 5 player names!");
+    if (nameList.length !== 2) {
+        alert("Please enter exactly 2 player names!");
         return;
     }
     if (nameList.some(name => name === "")) {
