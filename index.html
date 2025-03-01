@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Quiz App</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            padding: 50px 20px;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Quiz Time!</h1>
+        <div id="player-input">
+            <label for="player-names">Enter Player Names (comma separated):</label>
+            <input type="text" id="player-names" placeholder="e.g. Alice, Bob, Charlie, Dave, Eve">
+            <button onclick="startGame()">Start Game</button>
+        </div>
+        <div id="player-turn" style="display: none;"></div>
+        <div id="question-number"></div>
+        <div id="question" class="question"></div>
+        <div id="options"></div>
+        <button id="next-btn" disabled>Next</button>
+        <div id="score"></div>
+    </div>
+    <div class="dashboard">
+        <h2>Leaderboard</h2>
+        <ul id="leaderboard"></ul>
+        <h3 id="winner"></h3>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
