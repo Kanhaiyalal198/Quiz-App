@@ -4,11 +4,11 @@ const questions = [
     { question: "What is the largest mammal?", options: ["Elephant", "Blue Whale", "Giraffe", "Polar Bear"], answer: "Blue Whale" },
     { question: "Who wrote 'Hamlet'?", options: ["Shakespeare", "Dickens", "Hemingway", "Austen"], answer: "Shakespeare" },
     { question: "What is the square root of 64?", options: ["6", "8", "10", "12"], answer: "8" },
-    { question: "What is the fastest land animal?", options: ["Cheetah", "Lion", "Horse", "Kangaroo"], answer: "Cheetah" },
-    { question: "Which is the longest river in the world?", options: ["Amazon", "Nile", "Yangtze", "Mississippi"], answer: "Nile" },
-    { question: "What is the national flower of Japan?", options: ["Cherry Blossom", "Rose", "Lotus", "Tulip"], answer: "Cherry Blossom" },
-    { question: "How many legs does a spider have?", options: ["6", "8", "10", "12"], answer: "8" },
-    { question: "Who discovered gravity?", options: ["Newton", "Einstein", "Galileo", "Tesla"], answer: "Newton" }
+    // { question: "What is the fastest land animal?", options: ["Cheetah", "Lion", "Horse", "Kangaroo"], answer: "Cheetah" },
+    // { question: "Which is the longest river in the world?", options: ["Amazon", "Nile", "Yangtze", "Mississippi"], answer: "Nile" },
+    // { question: "What is the national flower of Japan?", options: ["Cherry Blossom", "Rose", "Lotus", "Tulip"], answer: "Cherry Blossom" },
+    // { question: "How many legs does a spider have?", options: ["6", "8", "10", "12"], answer: "8" },
+    // { question: "Who discovered gravity?", options: ["Newton", "Einstein", "Galileo", "Tesla"], answer: "Newton" }
 ];
 
 
