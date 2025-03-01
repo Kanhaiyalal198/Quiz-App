@@ -102,7 +102,15 @@ function nextQuestion() {
 function displayLeaderboard() {
     const leaderboard = document.getElementById("leaderboard");
     leaderboard.innerHTML = "";
+    // //let first=players[0].score;
+    // let second = players[0].score;
+    // console.log(first);
+    // console.log(second);
     players.sort((a, b) => b.score - a.score);
+    if(players[0].score===players[1].score){
+        document.getElementById("winner").innerText = `Match Tie........!Try again`;
+        return;
+    } 
     players.forEach(player => {
         const li = document.createElement("li");
         li.textContent = `${player.name}: ${player.score}`;
